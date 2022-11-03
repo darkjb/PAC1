@@ -1,0 +1,26 @@
+.estilo-alternativo {
+  padding-inline: 2rem;
+  color: $title-color;
+  background-color: $main-color;
+}
+
+.horizontal-flex {
+  display: flex;
+  justify-content: space-around;
+
+  @media (max-width: $mqFlex) {
+    flex-direction: column;
+  }
+}
+
+.show-list-style {
+  list-style: disc;
+}
+
+.centered {
+  margin: auto;
+}
+
+.text-left-ident {
+  margin-inline-start: 15px;
+}
